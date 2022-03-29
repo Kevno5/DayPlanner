@@ -34,3 +34,58 @@ $('#4').val(stored4)
 
 var stored5 = localStorage.getItem('hour-5')
 $('#5').val(stored5)
+
+if (moment().hour() == 9 ) {
+    $('#9').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 9 ) {
+    $('#9').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 10 ) {
+    $('#10').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 10 ) {
+    $('#10').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 11 ) {
+    $('#11').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 11 ) {
+    $('#11').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 12 ) {
+    $('#12').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 12 ) {
+    $('#12').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 13 ) {
+    $('#1').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 13 ) {
+    $('#1').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 14 ) {
+    $('#2').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 14 ) {
+    $('#2').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 15 ) {
+    $('#3').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 15 ) {
+    $('#3').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 16 ) {
+    $('#4').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 16 ) {
+    $('#4').attr('style', 'background-color: lightgrey;')
+}
+if (moment().hour() == 17 ) {
+    $('#5').attr('style', 'background-color: lightgreen;')
+}
+if (moment().hour() > 17 ) {
+    $('#5').attr('style', 'background-color: lightgrey;')
+}
